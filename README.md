@@ -1,6 +1,6 @@
 # LangGraph Documentation MCP Server
 
-This project implements a Model Control Protocol (MCP) server that provides access to LangGraph documentation through a vector store-based retrieval system. The implementation is based on the [MCP From Scratch tutorial](https://mirror-feeling-d80.notion.site/MCP-From-Scratch-1b9808527b178040b5baf83a991ed3b2?pvs=4) and has been updated to use Ollama for embeddings.
+This project implements a Mod Control Protocol (MCP) server that provides access to LangGraph documentation through a vector store-based retrieval system. The implementation is based on the [MCP From Scratch tutorial](https://mirror-feeling-d80.notion.site/MCP-From-Scratch-1b9808527b178040b5baf83a991ed3b2?pvs=4) and has been updated to use Ollama for embeddings.
 
 ## Features
 
@@ -14,7 +14,8 @@ This project implements a Model Control Protocol (MCP) server that provides acce
 
 - Python 3.12+
 - Ollama installed and running locally (default port: 11434)
-- Required Python packages (see requirements.txt)
+- Required Python packages 
+    - langchain_community langchain-anthropic langchain_ollama scikit-learn bs4 pandas pyarrow matplotlib lxml langgraph tiktoken "mcp[cli]
 
 ## Installation
 
